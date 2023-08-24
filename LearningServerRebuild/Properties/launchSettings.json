@@ -20,11 +20,10 @@
     },
     "Docker": {
       "commandName": "Docker",
-      "launchBrowser": true,
+      "launchBrowser": false,
       "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}/user",
       "useSSL": false,
       "httpPort": 8080,
-      "sslPort": 443,
       "environmentVariables": {
         "ASPNETCORE_URLS": "http://+:8080",
         "ASPNETCORE_ENVIRONMENT": "Development",
@@ -34,7 +33,7 @@
         "SMTP_SENHA": "JysApi123",
         "SMTP_USERNAME": "johnvitorapi@hotmail.com"
       },
-      "publishAllPorts": true
+      "publishAllPorts": false
     }
   },
   "$schema": "https://json.schemastore.org/launchsettings.json",
