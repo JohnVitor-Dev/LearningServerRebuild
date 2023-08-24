@@ -7,6 +7,12 @@ using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
+var teste = Environment.GetEnvironmentVariable("JWT_KEY");
+var teste2 = Environment.GetEnvironmentVariable("CONNECTIONSTRINGS_PROJECTCONTEXT");
+
+Console.WriteLine(teste);
+Console.WriteLine(teste2);
+
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddDbContext<ProjectContext>();
