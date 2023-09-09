@@ -27,12 +27,7 @@
       "sslPort": 443,
       "environmentVariables": {
         "ASPNETCORE_URLS": "http://+:80",
-        "ASPNETCORE_ENVIRONMENT": "Development",
-        "JWT_KEY": "jQ7afFZQ3rTssy96FWAr214mm8IEvdAg",
-        "CONNECTIONSTRINGS_PROJECTCONTEXT": "User Id=postgres;Password=tY619W8oAsGwKMXb;Server=db.jnudahopzoirfaaukklz.supabase.co;Port=5432;Database=postgres",
-        "SMTP_PORTA": "587",
-        "SMTP_SENHA": "JysApi123",
-        "SMTP_USERNAME": "johnvitorapi@hotmail.com"
+        "ASPNETCORE_ENVIRONMENT": "Development"
       },
       "publishAllPorts": false
     }
